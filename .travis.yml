@@ -1,4 +1,4 @@
-language: cpp
+language: generate
 
 services:
 - docker
