@@ -1,10 +1,6 @@
-language: generic
-
+/lang<CR>o
 services:
 - docker
-
-before_install:
-- echo "$DOCKER_PASSWORD" | docker login -u "$DOCKER_USERNAME" --password-stdin
-
+jVGdo
 script:
 - docker build -t logger .
