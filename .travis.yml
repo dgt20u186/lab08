@@ -1,6 +1,5 @@
-/lang<CR>o
 services:
 - docker
-jVGdo
+
 script:
 - docker build -t logger .
